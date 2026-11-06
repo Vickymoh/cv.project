@@ -5,6 +5,24 @@
     <title>My Curriculum Vitae</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<div class="marquee">
+  <h1>Victor Mokaya Angwenyi</h1>
+</div>
+
+<style>
+  .marquee {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .marquee h1 {
+    display: inline-block;
+    animation: moveRight 10s linear infinite;
+  }
+  @keyframes moveRight {
+    from { transform: translateX(-100%); }
+    to   { transform: translateX(100vw); }
+  }
+</style>
 <body>
 
 <h1>MY CURRICULUM VITAE</h1>
@@ -18,7 +36,7 @@
 
 <h2>Home</h2>
 
-<p>My name is<b><h1 style="font-size:48px;"></h1>VICTOR MOKAYA ANGWENYI</h1></b></p>
+<p>My name is<b><h1 style="font-size:48px;"></</p>
 
 <p>
 I am a student pursuing Information Technology.
